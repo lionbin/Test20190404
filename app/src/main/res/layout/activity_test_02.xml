@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test_02.Test_02">
+
+    <include layout="@layout/title_bar"></include>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e2e2df"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_01"
+            style="@style/bar"
+            android:drawableTop="@drawable/tubiao01"
+            android:text="第1个" />
+
+        <RadioButton
+            android:id="@+id/rb_02"
+            style="@style/bar"
+            android:drawableTop="@drawable/tubiao02"
+            android:text="第2个" />
+
+        <RadioButton
+            android:id="@+id/rb_03"
+            style="@style/bar"
+            android:drawableTop="@drawable/tubiao03"
+            android:text="第3个" />
+
+        <RadioButton
+            android:id="@+id/rb_04"
+            style="@style/bar"
+            android:drawableTop="@drawable/tubiao04"
+            android:text="第4个" />
+    </RadioGroup>
+</LinearLayout>
