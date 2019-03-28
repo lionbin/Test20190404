@@ -10,7 +10,7 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 import java.net.URI;
-//zxy xg
+
 public class Test_01 extends AppCompatActivity {
     private VideoView vd_fm01;
     private int cor_pos;
