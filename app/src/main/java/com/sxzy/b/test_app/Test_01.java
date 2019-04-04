@@ -15,7 +15,7 @@ public class Test_01 extends AppCompatActivity {
     private VideoView vd_fm01;
     private int cor_pos;
     private boolean isPaly;
-
+//修改
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
