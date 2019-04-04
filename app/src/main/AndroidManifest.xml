@@ -11,12 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Test_01" />
         <activity android:name=".Test_02.Test_02" />
-        <activity android:name=".Test_03.Test_03">
+        <activity android:name=".Test_03.Test_03"></activity>
+        <activity android:name=".Test_04.Test_04" />
+        <activity android:name=".Test_05.List_View"></activity>
+        <activity android:name=".Test_06.Grid_Activity">
 
         </activity>
-        <activity android:name=".Test_04.Test_04" />
-        <activity android:name=".Test_05.List_View"> </activity>
-        <activity android:name=".Test_06.Grid_Activity">
+        <activity android:name=".Test_07.Spinner_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
