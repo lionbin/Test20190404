@@ -15,9 +15,13 @@
         <activity android:name=".Test_04.Test_04" />
         <activity android:name=".Test_05.List_View" />
         <activity android:name=".Test_06.Grid_Activity" />
-        <activity android:name=".Test_07.Spinner_Activity"></activity>
+        <activity android:name=".Test_07.Spinner_Activity"/>
         <activity android:name=".Test_08.ExpandableLisvView_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".Test_07.Spinner_Activity_san">
             <intent-filter>
